@@ -1,4 +1,4 @@
-name: composer
+name: build
 
 on: 
   push:
