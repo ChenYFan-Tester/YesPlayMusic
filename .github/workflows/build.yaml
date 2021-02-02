@@ -19,6 +19,7 @@ jobs:
       run: |
         yarn install
         yarn run build
+        echo "music.cyfan.top" > ./dist/CNAME
         
         
     - name: Deploy
