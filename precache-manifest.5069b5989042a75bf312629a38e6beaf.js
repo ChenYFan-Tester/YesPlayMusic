@@ -60,15 +60,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/chunk-b1cac712.42e9e76d.css"
   },
   {
-    "revision": "7f16f79d7f988db1869a",
+    "revision": "c0de509634156b8dc771",
     "url": "/css/chunk-c1361de0.cf737bd1.css"
   },
   {
-    "revision": "a8e6dcf70581cdb5865b",
+    "revision": "97c18a47477f179861a8",
     "url": "/css/chunk-da59ceb8.351a82ce.css"
   },
   {
-    "revision": "d6ac29ee7e30f7d4b384",
+    "revision": "db849afedfa6fcbbd01a",
     "url": "/css/index.0c98c6df.css"
   },
   {
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logos/yesplaymusic.png"
   },
   {
-    "revision": "5ad611a567e61e905af303cfe15ccbef",
+    "revision": "901c1572c1ea5c7f8c66af917d2a8ab1",
     "url": "/index.html"
   },
   {
@@ -148,20 +148,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/chunk-b1cac712.59c9326d.js"
   },
   {
-    "revision": "7f16f79d7f988db1869a",
-    "url": "/js/chunk-c1361de0.d4db3543.js"
+    "revision": "c0de509634156b8dc771",
+    "url": "/js/chunk-c1361de0.fe1cfadf.js"
   },
   {
-    "revision": "a8e6dcf70581cdb5865b",
-    "url": "/js/chunk-da59ceb8.e717bd40.js"
+    "revision": "97c18a47477f179861a8",
+    "url": "/js/chunk-da59ceb8.80e3f57a.js"
   },
   {
-    "revision": "890d532d5ec7bfdf5470",
-    "url": "/js/chunk-vendors.24cd203f.js"
+    "revision": "ae79ab319c8d7790466f",
+    "url": "/js/chunk-vendors.1e6384d0.js"
   },
   {
-    "revision": "d6ac29ee7e30f7d4b384",
-    "url": "/js/index.11fab14e.js"
+    "revision": "db849afedfa6fcbbd01a",
+    "url": "/js/index.21427d1f.js"
   },
   {
     "revision": "b9d79419c8051857dbc1dedbc00e2ab2",
