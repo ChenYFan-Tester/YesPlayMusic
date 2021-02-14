@@ -108,8 +108,11 @@
       :showFooter="false"
       :clickOutsideHide="true"
       title="专辑介绍"
-      >{{ album.description }}</Modal
     >
+      <p class="description-fulltext">
+        {{ album.description }}
+      </p>
+    </Modal>
     <ContextMenu ref="albumMenu">
       <div class="item">{{ $t("contextMenu.playNext") }}</div>
       <div class="item" @click="likeAlbum(true)">{{
@@ -273,6 +276,7 @@ export default {
   display: flex;
   width: 78vw;
   margin-bottom: 72px;
+  padding: var(--main-content-padding);
   .info {
     display: flex;
     flex-direction: column;
@@ -311,6 +315,7 @@ export default {
       -webkit-line-clamp: 3;
       overflow: hidden;
       cursor: pointer;
+      white-space: pre-line;
       &:hover {
         transition: opacity 0.3s;
         opacity: 0.88;
@@ -321,6 +326,29 @@ export default {
       display: flex;
       button {
         margin-right: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .playlist-info {
+    width: calc(100vw - 2 * var(--main-content-padding-x));
+    padding: var(--main-content-padding);
+    display: block;
+
+    .cover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .info {
+      margin-top: 24px;
+      margin-left: 0;
+
+      .title {
+        font-size: 48px;
       }
     }
   }
@@ -341,6 +369,7 @@ export default {
   font-size: 12px;
   opacity: 0.48;
   color: var(--color-text);
+  padding: var(--main-content-padding);
   div {
     margin-bottom: 4px;
   }
@@ -359,6 +388,15 @@ export default {
     opacity: 0.88;
     color: var(--color-text);
     margin-bottom: 20px;
+    padding: var(--main-content-padding);
   }
+}
+.description-fulltext {
+  font-size: 16px;
+  margin-top: 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-line;
 }
 </style>
